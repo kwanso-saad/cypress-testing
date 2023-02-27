@@ -1,0 +1,15 @@
+# ignore node_modules directory
+node_modules/
+
+# ignore build artifacts
+build/
+dist/
+*.log
+*.tgz
+
+# ignore environment variables
+.env
+
+# allow certain files
+!src/index.js
+!README.md
