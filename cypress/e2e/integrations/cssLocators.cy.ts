@@ -1,4 +1,4 @@
-const url = 'https://app.collegeadvisor.com/login';
+import { url } from '../../constants';
 describe('Css Selectors as Locators', () => {
   it('Just Checking Heading Names Till Ex act', () => {
     cy.visit(url);
